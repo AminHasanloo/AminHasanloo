@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Amin Hasanloo Pixel Arcade Profile</title>
-  <desc id="desc">An original animated pixel-game scene introducing a Unity systems architect and game AI engineer.</desc>
+  <desc id="desc">An original animated pixel-game scene introducing a senior Unity game developer and game AI engineer.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07091A"/><stop offset="1" stop-color="#17113A"/></linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".55" stop-color="#818CF8"/><stop offset="1" stop-color="#D946EF"/></linearGradient>
     <pattern id="pixels" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#67E8F9" stroke-opacity=".035"/></pattern>
     <clipPath id="frame"><rect width="1200" height="420" rx="18"/></clipPath>
     <style>
-      .px{shape-rendering:crispEdges}.font{font-family:'Courier New',Consolas,monospace}.blink{animation:blink 1s steps(2,end) infinite}.bob{animation:bob 1.8s steps(2,end) infinite}.coin{animation:coin 1.2s steps(4,end) infinite;transform-box:fill-box;transform-origin:center}.cloudA{animation:cloud 22s linear infinite}.cloudB{animation:cloud 31s linear infinite}.spark{animation:spark 1.5s steps(2,end) infinite}.scan{animation:scan 7s linear infinite}
-      @keyframes blink{50%{opacity:.2}}@keyframes bob{50%{transform:translateY(-6px)}}@keyframes coin{50%{transform:scaleX(.25)}}@keyframes cloud{to{transform:translateX(1320px)}}@keyframes spark{50%{opacity:.15}}@keyframes scan{from{transform:translateY(-30px)}to{transform:translateY(450px)}}
-      @media(prefers-reduced-motion:reduce){.blink,.bob,.coin,.cloudA,.cloudB,.spark,.scan{animation:none}}
+      .px{shape-rendering:crispEdges}.font{font-family:'Courier New',Consolas,monospace}.blink{animation:blink 1s steps(2,end) infinite}.bob{animation:bob 1.8s steps(2,end) infinite}.coin{animation:coin 1.2s steps(4,end) infinite;transform-box:fill-box;transform-origin:center}.cloudA{animation:cloud 22s linear infinite}.cloudB{animation:cloud 31s linear infinite}.spark{animation:spark 1.5s steps(2,end) infinite}
+      @keyframes blink{50%{opacity:.35}}@keyframes bob{50%{transform:translateY(-5px)}}@keyframes coin{50%{transform:scaleX(.35)}}@keyframes cloud{to{transform:translateX(1320px)}}@keyframes spark{50%{opacity:.3}}
+      @media(prefers-reduced-motion:reduce){.blink,.bob,.coin,.cloudA,.cloudB,.spark{animation:none}}
     </style>
   </defs>
 
@@ -17,16 +17,15 @@
     <rect width="1200" height="420" fill="url(#sky)"/><rect width="1200" height="420" fill="url(#pixels)"/>
     <path d="M0 300h64v-32h48v16h48v-64h48v32h64v-80h48v112h64v-48h64v64h80v-96h48v64h64v-32h64v64h80v-64h64v80h80v-112h48v96h80v120H0Z" fill="#0B1530" opacity=".9"/>
     <g fill="#8BE9FD"><rect x="54" y="76" width="4" height="4"/><rect x="128" y="42" width="6" height="6"/><rect x="218" y="108" width="4" height="4"/><rect x="374" y="56" width="5" height="5"/><rect x="508" y="94" width="4" height="4"/><rect x="644" y="44" width="6" height="6"/><rect x="761" y="103" width="4" height="4"/><rect x="905" y="60" width="5" height="5"/><rect x="1110" y="92" width="4" height="4"/></g>
-    <g class="cloudA" transform="translate(-180 104)" fill="#263455"><rect x="0" y="16" width="104" height="16"/><rect x="24" width="48" height="16"/><rect x="72" y="8" width="24" height="8"/></g>
-    <g class="cloudB" transform="translate(-520 164)" fill="#1E2948"><rect x="0" y="16" width="136" height="16"/><rect x="32" width="56" height="16"/><rect x="88" y="8" width="32" height="8"/></g>
-    <rect class="scan" width="1200" height="2" fill="#67E8F9" opacity=".18"/>
+    <g transform="translate(-180 104)"><g class="cloudA" fill="#263455"><rect x="0" y="16" width="104" height="16"/><rect x="24" width="48" height="16"/><rect x="72" y="8" width="24" height="8"/></g></g>
+    <g transform="translate(-520 164)"><g class="cloudB" fill="#1E2948"><rect x="0" y="16" width="136" height="16"/><rect x="32" width="56" height="16"/><rect x="88" y="8" width="32" height="8"/></g></g>
 
     <g transform="translate(40 22)" class="font" font-size="13" font-weight="700" letter-spacing="2">
       <rect width="286" height="34" fill="#0A1124" stroke="#22D3EE" stroke-width="2"/>
       <text x="17" y="22" fill="#67E8F9">AMIN_OS // PLAYER READY</text><rect class="blink" x="266" y="12" width="8" height="8" fill="#4ADE80"/>
     </g>
 
-    <g transform="translate(52 205)" class="bob">
+    <g transform="translate(52 205)"><g class="bob">
       <g class="px">
         <rect x="32" width="48" height="8" fill="#22D3EE"/><rect x="24" y="8" width="64" height="16" fill="#155E75"/><rect x="16" y="24" width="80" height="48" fill="#0E7490"/>
         <rect x="24" y="32" width="16" height="16" fill="#A5F3FC"/><rect x="72" y="32" width="16" height="16" fill="#A5F3FC"/><rect x="40" y="52" width="32" height="8" fill="#07111F"/>
@@ -35,16 +34,17 @@
         <rect x="42" y="101" width="8" height="8" fill="#FACC15"/><rect x="62" y="101" width="8" height="8" fill="#FACC15"/>
       </g>
       <text x="56" y="190" text-anchor="middle" class="font" font-size="11" font-weight="700" fill="#A5F3FC">PIXEL ENGINEER</text>
-    </g>
+    </g></g>
 
-    <g class="coin" transform="translate(224 167)"><rect x="8" width="16" height="4" fill="#FDE047"/><rect x="4" y="4" width="24" height="28" fill="#F59E0B"/><rect x="8" y="8" width="16" height="20" fill="#FACC15"/><rect x="13" y="10" width="6" height="16" fill="#FFF7AE"/><rect x="8" y="32" width="16" height="4" fill="#B45309"/></g>
-    <g class="coin" transform="translate(274 144)" style="animation-delay:.35s"><rect x="8" width="16" height="4" fill="#FDE047"/><rect x="4" y="4" width="24" height="28" fill="#F59E0B"/><rect x="8" y="8" width="16" height="20" fill="#FACC15"/><rect x="13" y="10" width="6" height="16" fill="#FFF7AE"/><rect x="8" y="32" width="16" height="4" fill="#B45309"/></g>
+    <g transform="translate(224 167)"><g class="coin"><rect x="8" width="16" height="4" fill="#FDE047"/><rect x="4" y="4" width="24" height="28" fill="#F59E0B"/><rect x="8" y="8" width="16" height="20" fill="#FACC15"/><rect x="13" y="10" width="6" height="16" fill="#FFF7AE"/><rect x="8" y="32" width="16" height="4" fill="#B45309"/></g></g>
+    <g transform="translate(274 144)"><g class="coin" style="animation-delay:.35s"><rect x="8" width="16" height="4" fill="#FDE047"/><rect x="4" y="4" width="24" height="28" fill="#F59E0B"/><rect x="8" y="8" width="16" height="20" fill="#FACC15"/><rect x="13" y="10" width="6" height="16" fill="#FFF7AE"/><rect x="8" y="32" width="16" height="4" fill="#B45309"/></g></g>
 
+    <rect x="320" y="58" width="590" height="302" rx="12" fill="#050816" fill-opacity=".9" stroke="#233453" stroke-width="2"/>
     <g transform="translate(340 72)" class="font">
       <text x="0" y="18" fill="#94A3B8" font-size="14" font-weight="700" letter-spacing="3">INSERT CURIOSITY // PRESS START</text>
       <text x="0" y="78" fill="#F8FAFC" font-size="45" font-weight="900">MOHAMMAD AMIN</text>
       <text x="0" y="128" fill="url(#neon)" font-size="48" font-weight="900">HASANLOO</text>
-      <text x="0" y="168" fill="#BAE6FD" font-size="17" font-weight="700">UNITY SYSTEMS ARCHITECT + GAME AI ENGINEER</text>
+      <text x="0" y="168" fill="#BAE6FD" font-size="17" font-weight="700">SENIOR UNITY DEVELOPER + GAME AI ENGINEER</text>
       <text x="0" y="198" fill="#94A3B8" font-size="14">BUILDING PLAYABLE TECHNOLOGY FOR 15+ YEARS</text>
       <g transform="translate(0 230)" font-size="12" font-weight="700">
         <g><rect width="118" height="40" fill="#0C3343" stroke="#22D3EE" stroke-width="2"/><text x="59" y="25" text-anchor="middle" fill="#A5F3FC">GAMEPLAY</text></g>
@@ -54,14 +54,14 @@
       </g>
     </g>
 
-    <g transform="translate(930 94)" class="bob">
+    <g transform="translate(930 94)"><g class="bob">
       <g fill="#7C3AED"><rect x="24" width="64" height="8"/><rect x="8" y="8" width="96" height="16"/><rect y="24" width="112" height="24"/></g>
       <g fill="#A855F7"><rect x="16" y="16" width="24" height="16"/><rect x="72" y="16" width="24" height="16"/><rect x="24" y="48" width="64" height="16"/></g>
       <g fill="#F5D0FE"><rect x="36" y="48" width="40" height="48"/><rect x="28" y="64" width="56" height="24"/></g>
       <rect x="36" y="60" width="8" height="12" fill="#111827"/><rect x="68" y="60" width="8" height="12" fill="#111827"/>
       <path d="M102 8h30v20h24" fill="none" stroke="#D946EF" stroke-width="4"/><rect class="spark" x="154" y="24" width="8" height="8" fill="#FACC15"/>
       <text x="56" y="120" text-anchor="middle" class="font" font-size="11" font-weight="700" fill="#E9D5FF">AI POWER-UP</text>
-    </g>
+    </g></g>
 
     <g transform="translate(930 254)" class="font" font-size="14" font-weight="900">
       <g><rect width="66" height="66" fill="#6B3E16" stroke="#F59E0B" stroke-width="3"/><rect x="8" y="8" width="50" height="50" fill="#92400E"/><text x="33" y="41" text-anchor="middle" fill="#FDE68A">C#</text></g>

@@ -4,9 +4,10 @@ The goal is a profile that proves useful engineering work. Achievements are a si
 
 ## Already visible
 
-- Developer Program Member
 - Pull Shark x3
 - YOLO
+
+The public profile snapshot reviewed on 2026-09-09 showed these two Achievements. Recheck the live sidebar before claiming any additional program badge.
 
 ## First 7 days
 

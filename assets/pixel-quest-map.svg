@@ -12,7 +12,8 @@
       <g transform="translate(952 126)"><rect x="-44" y="-28" width="88" height="56" fill="#6B21A8" stroke="#D946EF" stroke-width="3"/><text y="5" fill="#FAE8FF">DOCS</text><text y="73" fill="#F5D0FE">EXPLAIN</text></g>
       <g transform="translate(1120 118)"><path d="M0-48 34-8 18-8 18 32H-18V-8H-34Z" fill="#B45309" stroke="#FACC15" stroke-width="3"/><text y="2" fill="#FFF7AE">↑</text><text y="76" fill="#FDE68A">SHIP</text></g>
     </g>
-    <g transform="translate(0 0)"><g><rect x="-10" y="-10" width="20" height="20" fill="#22D3EE"/><rect x="-6" y="-18" width="12" height="8" fill="#A5F3FC"/></g><animateMotion dur="11s" repeatCount="indefinite" path="M90 173H268V116h224v78h222v-92h220v70h170"/></g>
+    <path d="M74 226H1126" fill="none" stroke="#1E3A5F" stroke-width="4" stroke-dasharray="8 12"/>
+    <g aria-hidden="true"><g><rect x="-9" y="-9" width="18" height="18" fill="#22D3EE"/><rect x="-5" y="-16" width="10" height="7" fill="#A5F3FC"/></g><animateMotion dur="11s" repeatCount="indefinite" path="M74 226H1126"/></g>
     <g class="water" fill="#0E7490"><rect x="20" y="248" width="260" height="8"/><rect x="300" y="256" width="250" height="8"/><rect x="570" y="248" width="260" height="8"/><rect x="850" y="256" width="330" height="8"/></g>
   </g>
 </svg>

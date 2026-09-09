@@ -77,14 +77,14 @@ OUTPUT    Playable systems that are easier to test, extend and ship
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AminHasanloo&show_icons=true&include_all_commits=true&rank_icon=percentile&hide_border=true&bg_color=070B16&title_color=22D3EE&text_color=C7D2FE&icon_color=A855F7" alt="GitHub stats" />
 <img height="165" src="https://streak-stats.demolab.com?user=AminHasanloo&hide_border=true&background=070B16&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C7D2FE&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub contribution streak" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=AminHasanloo&theme=tokyonight&utcOffset=4" alt="GitHub productive time" />
 
 </div>
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AminHasanloo&bg_color=070B16&color=C7D2FE&line=22D3EE&point=A855F7&area=true&area_color=0E7490&hide_border=true&custom_title=CONTRIBUTION%20SIGNAL" alt="Contribution activity graph" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AminHasanloo&theme=tokyonight" alt="GitHub contribution profile details" />
 
 </div>
 

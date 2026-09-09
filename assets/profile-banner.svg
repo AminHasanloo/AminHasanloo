@@ -1,66 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Mohammad Amin Hasanloo - Unity, Game Systems and AI</title>
-  <desc id="desc">Futuristic dark profile banner for a senior Unity game developer and AI engineer.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammad Amin Hasanloo — Unity Systems Architect and Game AI Engineer</title>
+  <desc id="desc">Animated gaming HUD banner with a controller circuit emblem, player profile and mission loadout.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050816"/>
-      <stop offset="0.46" stop-color="#0b1730"/>
-      <stop offset="1" stop-color="#160b2f"/>
+      <stop offset="0" stop-color="#050713"/><stop offset=".5" stop-color="#071426"/><stop offset="1" stop-color="#160A2D"/>
     </linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.55" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#a855f7"/>
+      <stop offset="0" stop-color="#22D3EE"/><stop offset=".52" stop-color="#38BDF8"/><stop offset="1" stop-color="#A855F7"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity=".26"/>
-      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#a855f7" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity=".07" stroke-width="1"/>
-    </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetGlow"><stop offset="0" stop-color="#A855F7" stop-opacity=".26"/><stop offset="1" stop-color="#A855F7" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#7DD3FC" stroke-opacity=".065"/></pattern>
+    <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#A5F3FC" fill-opacity=".08"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="390" rx="26"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Segoe UI Mono',Consolas,monospace}.ui{font-family:Inter,'Segoe UI',Arial,sans-serif}
+      .pulse{animation:pulse 2.8s ease-in-out infinite;transform-origin:center}.spin{animation:spin 18s linear infinite;transform-origin:963px 188px}.dash{stroke-dasharray:10 14;animation:dash 8s linear infinite}.scan{animation:scan 6s ease-in-out infinite}.blink{animation:blink 1.2s steps(2,end) infinite}
+      @keyframes pulse{0%,100%{opacity:.45;transform:scale(.96)}50%{opacity:1;transform:scale(1.06)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes dash{to{stroke-dashoffset:-240}}@keyframes scan{0%,100%{transform:translateY(-35px);opacity:0}12%,84%{opacity:.35}50%{transform:translateY(390px)}}@keyframes blink{50%{opacity:.25}}
+      @media (prefers-reduced-motion:reduce){.pulse,.spin,.dash,.scan,.blink{animation:none}}
+    </style>
   </defs>
-
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <ellipse cx="190" cy="96" rx="270" ry="210" fill="url(#glowA)"/>
-  <ellipse cx="1050" cy="252" rx="330" ry="230" fill="url(#glowB)"/>
-
-  <g opacity=".75" fill="none" stroke="url(#neon)">
-    <path d="M64 238H210l34-34h108l34 34h170" stroke-width="2"/>
-    <path d="M835 82h113l26 26h162" stroke-width="2"/>
-    <circle cx="64" cy="238" r="4" fill="#22d3ee" stroke="none"/>
-    <circle cx="556" cy="238" r="4" fill="#38bdf8" stroke="none"/>
-    <circle cx="835" cy="82" r="4" fill="#38bdf8" stroke="none"/>
-    <circle cx="1136" cy="108" r="4" fill="#a855f7" stroke="none"/>
+  <g clip-path="url(#frame)"><rect width="1200" height="390" fill="url(#bg)"/><rect width="1200" height="390" fill="url(#grid)"/><rect width="1200" height="390" fill="url(#micro)"/><ellipse cx="140" cy="130" rx="360" ry="300" fill="url(#cyanGlow)"/><ellipse cx="1080" cy="315" rx="420" ry="330" fill="url(#violetGlow)"/><path class="scan" d="M0 0H1200V2H0Z" fill="#67E8F9"/><path d="M0 335L270 65h335L930 390" fill="none" stroke="#38BDF8" stroke-opacity=".075" stroke-width="70"/></g>
+  <rect x="1" y="1" width="1198" height="388" rx="25" fill="none" stroke="#22D3EE" stroke-opacity=".34" stroke-width="2"/><path d="M26 88V30h58M1116 30h58v58M26 302v58h58M1116 360h58v-58" fill="none" stroke="url(#neon)" stroke-width="3"/>
+  <g class="mono" font-size="12" letter-spacing="2.4"><text x="48" y="47" fill="#67E8F9">PROFILE_OS // ONLINE</text><circle class="blink" cx="32" cy="43" r="5" fill="#22D3EE" filter="url(#glow)"/><text x="950" y="47" fill="#94A3B8">BUILD 15.YRS+ // UTC+4</text></g>
+  <g transform="translate(66 92)">
+    <path d="M39 99c-22 0-31-14-24-35l17-49C37 2 47-4 61 2l30 13h52l30-13c14-6 24 0 29 13l17 49c7 21-2 35-24 35-11 0-20-6-29-19l-12-17H80L68 80C59 93 50 99 39 99Z" fill="#07111F" stroke="url(#neon)" stroke-width="2.5"/><path d="M58 32v29M43 47h30" stroke="#67E8F9" stroke-width="7" stroke-linecap="round"/><circle cx="171" cy="37" r="6" fill="#A855F7" class="pulse"/><circle cx="188" cy="54" r="6" fill="#22D3EE" class="pulse"/>
+    <path d="M91 15 70-9H38M143 15l21-24h38M81 63l-24 31H19M154 63l27 31h39" fill="none" stroke="#38BDF8" stroke-opacity=".6" stroke-width="2"/><circle cx="37" cy="-9" r="4" fill="#22D3EE"/><circle cx="203" cy="-9" r="4" fill="#A855F7"/><circle cx="18" cy="94" r="4" fill="#38BDF8"/><circle cx="221" cy="94" r="4" fill="#A855F7"/>
+    <rect x="26" y="122" width="188" height="35" rx="8" fill="#07111F" stroke="#22D3EE" stroke-opacity=".45"/><text x="120" y="144" text-anchor="middle" fill="#CFFAFE" class="mono" font-size="12" letter-spacing="2">SYSTEMS ARCHITECT</text>
   </g>
-
-  <g transform="translate(72 58)">
-    <rect width="116" height="116" rx="28" fill="#07111f" stroke="url(#neon)" stroke-width="2"/>
-    <path d="M28 83V34h13l17 23 17-23h13v49H74V55L58 76 42 55v28Z" fill="url(#neon)" filter="url(#softGlow)"/>
-    <circle cx="91" cy="27" r="5" fill="#22d3ee"/>
+  <g transform="translate(350 84)">
+    <text class="mono" x="0" y="0" fill="#94A3B8" font-size="13" letter-spacing="3">PLAYER_01 / UNITY + AI</text><text class="ui" x="0" y="62" fill="#F8FAFC" font-size="48" font-weight="800">MOHAMMAD AMIN</text><text class="ui" x="0" y="111" fill="url(#neon)" font-size="48" font-weight="800">HASANLOO</text>
+    <rect x="0" y="134" width="490" height="4" rx="2" fill="#1E293B"/><rect x="0" y="134" width="412" height="4" rx="2" fill="url(#neon)" filter="url(#glow)"/><text class="mono" x="0" y="166" fill="#67E8F9" font-size="12" letter-spacing="2">LEVEL // 15+ YEARS BUILDING SOFTWARE</text>
+    <g transform="translate(0 192)" class="mono" font-size="11" letter-spacing="1.3"><g><rect width="114" height="34" rx="7" fill="#0B2030" stroke="#22D3EE" stroke-opacity=".55"/><text x="57" y="22" text-anchor="middle" fill="#BAE6FD">GAMEPLAY</text></g><g transform="translate(124)"><rect width="102" height="34" rx="7" fill="#11152D" stroke="#818CF8" stroke-opacity=".6"/><text x="51" y="22" text-anchor="middle" fill="#C7D2FE">GAME AI</text></g><g transform="translate(236)"><rect width="118" height="34" rx="7" fill="#1C1230" stroke="#A855F7" stroke-opacity=".65"/><text x="59" y="22" text-anchor="middle" fill="#E9D5FF">SIMULATION</text></g><g transform="translate(364)"><rect width="134" height="34" rx="7" fill="#1E1028" stroke="#D946EF" stroke-opacity=".55"/><text x="67" y="22" text-anchor="middle" fill="#F5D0FE">AUTOMATION</text></g></g>
   </g>
-
-  <text x="220" y="95" fill="#e6f7ff" font-family="Arial,Segoe UI,sans-serif" font-size="18" font-weight="700" letter-spacing="4">UNITY • GAME SYSTEMS • AI</text>
-  <text x="220" y="154" fill="#ffffff" font-family="Arial,Segoe UI,sans-serif" font-size="43" font-weight="800">Mohammad Amin Hasanloo</text>
-  <rect x="220" y="174" width="620" height="4" rx="2" fill="url(#neon)"/>
-  <text x="220" y="213" fill="#b9d9ea" font-family="Arial,Segoe UI,sans-serif" font-size="22" font-weight="500">Senior Unity Game Developer • Gameplay &amp; Systems Engineer • Technical Lead</text>
-  <text x="220" y="250" fill="#8ab4c8" font-family="Arial,Segoe UI,sans-serif" font-size="17">Serious Games • Simulation • XR • AI Agents • Automation</text>
-
-  <g transform="translate(947 180)" opacity=".9">
-    <circle cx="74" cy="44" r="62" fill="none" stroke="#38bdf8" stroke-opacity=".24"/>
-    <circle cx="74" cy="44" r="43" fill="none" stroke="#a855f7" stroke-opacity=".34"/>
-    <circle cx="74" cy="44" r="7" fill="#22d3ee" filter="url(#softGlow)"/>
-    <path d="M74-18V4M74 84v22M12 44h22M114 44h22M30 0l17 17M101 71l17 17M30 88l17-17M101 17l17-17" stroke="url(#neon)" stroke-width="2"/>
-  </g>
-
-  <text x="72" y="292" fill="#5f8297" font-family="monospace" font-size="13" letter-spacing="2">BUILDING PLAYABLE TECHNOLOGY FOR THE FUTURE</text>
+  <g class="spin" fill="none" stroke="url(#neon)"><circle cx="963" cy="188" r="100" stroke-width="1.5" stroke-opacity=".24"/><circle cx="963" cy="188" r="78" stroke-width="2" stroke-dasharray="13 18" stroke-opacity=".72"/><circle cx="963" cy="188" r="55" stroke-width="1" stroke-dasharray="3 8" stroke-opacity=".4"/></g><g fill="none" stroke="#67E8F9" stroke-width="2"><path class="dash" d="M865 188h42l19-19h37l18 19h80"/><path d="M963 102v31M963 243v31M877 188h30M1019 188h30" stroke-opacity=".5"/></g><circle class="pulse" cx="963" cy="188" r="13" fill="#22D3EE" filter="url(#glow)"/><circle cx="963" cy="188" r="4" fill="#F8FAFC"/><text class="mono" x="963" y="315" text-anchor="middle" fill="#C4B5FD" font-size="12" letter-spacing="2">MISSION LOCKED</text>
+  <g class="mono" font-size="12" letter-spacing="2"><text x="48" y="356" fill="#64748B">PLAY</text><text x="100" y="356" fill="#22D3EE">•</text><text x="118" y="356" fill="#64748B">BUILD</text><text x="178" y="356" fill="#38BDF8">•</text><text x="196" y="356" fill="#64748B">SIMULATE</text><text x="286" y="356" fill="#818CF8">•</text><text x="304" y="356" fill="#64748B">AUTOMATE</text><text x="838" y="356" fill="#64748B">SHIPPING PLAYABLE TECHNOLOGY</text></g>
 </svg>

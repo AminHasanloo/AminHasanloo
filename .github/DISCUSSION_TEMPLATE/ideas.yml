@@ -1,0 +1,42 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share a concrete idea for a game system, Unity tool, AI workflow or project improvement.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What needs to become easier, safer, faster or more useful?
+    validations:
+      required: true
+
+  - type: textarea
+    id: direction
+    attributes:
+      label: Proposed direction
+      description: Describe the smallest useful version of the idea.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Unity gameplay
+        - Game AI and simulation
+        - Architecture and performance
+        - AI agents and automation
+        - Documentation and developer experience
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Constraints or tradeoffs
+      description: Mention platform, performance, compatibility or maintenance constraints.

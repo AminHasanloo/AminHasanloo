@@ -1,86 +1,102 @@
 <div align="center">
 
-<img width="100%" src="assets/profile-banner.svg" alt="Mohammad Amin Hasanloo - Senior Unity Game Developer, Gameplay Systems Engineer and AI Engineer"/>
+<img width="100%" src="assets/profile-banner.svg" alt="Mohammad Amin Hasanloo — Unity systems architect, game AI engineer and automation builder" />
 
-<br/>
+<br />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Senior+Unity+Game+Developer;Gameplay+%26+Systems+Engineer;Serious+Games+%7C+Simulation+%7C+XR;AI+Agents+%7C+n8n+%7C+Automation;Building+playable+technology+for+the+future" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=650&size=21&duration=2800&pause=850&color=22D3EE&center=true&vCenter=true&repeat=true&width=900&height=45&lines=Unity+Systems+Architect+%26+Gameplay+Engineer;Game+AI+%7C+Simulation+%7C+Serious+Games;AI+Agents+%7C+Tools+%7C+Production+Automation;I+build+systems+that+ship" alt="Animated role summary" />
 
-<br/>
-
-<a href="https://www.linkedin.com/in/aminhasanloo/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:hsoamin76@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=AminHasanloo&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" />
+<a href="https://www.linkedin.com/in/aminhasanloo/"><img src="https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:hsoamin76@gmail.com"><img src="https://img.shields.io/badge/Email-let's_talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/AminHasanloo?tab=repositories"><img src="https://img.shields.io/badge/Projects-explore-111827?style=for-the-badge&logo=github&logoColor=white" alt="Public projects" /></a>
+<img src="https://komarev.com/ghpvc/?username=AminHasanloo&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
----
+## `PLAYER_01 // AMIN HASANLOO`
 
-## 👾 About Me
+I am a senior software and game developer focused on the systems behind playable products: **gameplay architecture, game AI, simulation, performance and production tooling**.
 
-I'm **Mohammad Amin Hasanloo**, a software and game developer with **15+ years of programming experience**, focused on building games, simulations, intelligent systems and interactive products.
-
-My core world is **Unity + C#**: gameplay architecture, game systems, AI-driven behavior, mobile optimization, serious games, simulation, XR and production tooling.
-
-Beyond the engine, I build **AI agents, n8n automations, generative-AI pipelines and full-stack systems** that connect game production with the rapidly evolving AI ecosystem.
+My main engine is **Unity + C#**. Around it I build AI agents, automation pipelines and full-stack tools that help teams move from an idea to a measurable working experience.
 
 ```text
-GAMEPLAY  +  SYSTEMS  +  AI  +  AUTOMATION
-                    ↓
-            PLAYABLE TECHNOLOGY
+MISSION   Build reusable technology for games, simulations and serious products
+METHOD    Modular architecture + deterministic logic + evidence-driven iteration
+OUTPUT    Playable systems that are easier to test, extend and ship
 ```
 
-- 🎮 **Unity / C#** for 2D, 3D, mobile, PC, WebGL, VR & AR
-- 🧠 **Game AI** for NPCs, vehicles, combat, simulation and data-driven behavior
-- ⚙️ **Architecture & Optimization** for scalable and production-ready Unity projects
-- 🛰️ **Serious Games & Simulation** for training, education, organizations and interactive experiences
-- 🤖 **AI Agents & Automation** with LLMs, n8n, Python, Node.js and APIs
-- 🧪 **R&D** around AI-assisted game production, animation and interactive systems
+<table>
+<tr>
+<td width="50%" valign="top">
 
----
+### 🎮 GAME SYSTEMS
 
-## 🧩 Core Stack
+- Gameplay architecture and reusable frameworks
+- Controllers, combat, vehicles and progression
+- Save systems, economy and data-driven content
+- Mobile, PC, WebGL and XR delivery
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 INTELLIGENT SYSTEMS
+
+- FSM, Utility AI and decision systems
+- Navigation, pathfinding and vehicle AI
+- Simulation and serious-game mechanics
+- AI agents and production automation
+
+</td>
+</tr>
+</table>
+
+## `LOADOUT // CORE STACK`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=unity,cs,dotnet,python,nodejs,nextjs,react,mongodb,postgres,redis,git,github,blender,figma&perline=14" />
+<img src="https://skillicons.dev/icons?i=unity,cs,dotnet,python,nodejs,nextjs,react,mongodb,postgres,redis,git,github,blender,figma&perline=14" alt="Core technology stack" />
 
-<br/><br/>
+<br /><br />
 
-<img src="https://img.shields.io/badge/Unity-DOTS%20%7C%20ECS-111827?style=flat-square&logo=unity&logoColor=white"/>
-<img src="https://img.shields.io/badge/Unity-Addressables-111827?style=flat-square&logo=unity&logoColor=white"/>
-<img src="https://img.shields.io/badge/Unity-Burst%20%7C%20Jobs-111827?style=flat-square&logo=unity&logoColor=white"/>
-<img src="https://img.shields.io/badge/n8n-Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
-<img src="https://img.shields.io/badge/AI-Agents-7C3AED?style=flat-square"/>
-<img src="https://img.shields.io/badge/LLM-Integration-0EA5E9?style=flat-square"/>
+<img src="https://img.shields.io/badge/Unity-Gameplay_Systems-111827?style=flat-square&logo=unity&logoColor=white" alt="Unity gameplay systems" />
+<img src="https://img.shields.io/badge/Game_AI-Decision_Systems-0F172A?style=flat-square&color=0891B2" alt="Game AI" />
+<img src="https://img.shields.io/badge/Architecture-SOLID_%7C_Modular-0F172A?style=flat-square&color=7C3AED" alt="Software architecture" />
+<img src="https://img.shields.io/badge/Performance-Profiling_%7C_Pooling-0F172A?style=flat-square&color=2563EB" alt="Unity performance" />
+<img src="https://img.shields.io/badge/AI_Agents-LLMs_%7C_Tools-0F172A?style=flat-square&color=9333EA" alt="AI agents" />
+<img src="https://img.shields.io/badge/n8n-Production_Automation-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n automation" />
 
 </div>
 
----
+## `LIVE TELEMETRY // PUBLIC GITHUB`
 
-## 🎮 Engineering Profile
+<div align="center">
 
-| Area | What I Work On |
-|---|---|
-| **Gameplay Engineering** | Controllers, combat, weapons, vehicles, missions, progression, save/load, economy |
-| **Game AI** | FSM, Utility AI, navigation, pathfinding, targeting, vehicle AI, simulation logic |
-| **Unity Architecture** | SOLID, modular systems, ScriptableObjects, reusable frameworks, editor tooling |
-| **Performance** | Profiler, GC & memory reduction, pooling, batching, UI optimization, LOD, Addressables |
-| **Mobile Games** | Android, Google Play, Café Bazaar, Myket, IAP, ads, analytics, build optimization |
-| **Serious Games** | Training, education, industrial simulation, museums, gamification |
-| **XR** | VR training, AR experiences, interactive navigation and spatial applications |
-| **AI & Automation** | AI agents, n8n, LLM APIs, media pipelines, content and production automation |
+<img width="100%" src="https://raw.githubusercontent.com/AminHasanloo/AminHasanloo/output/profile-metrics.svg" alt="Live public GitHub metrics" />
 
----
+</div>
 
-## 🚀 Selected Public Work
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AminHasanloo&show_icons=true&include_all_commits=true&rank_icon=percentile&hide_border=true&bg_color=070B16&title_color=22D3EE&text_color=C7D2FE&icon_color=A855F7" alt="GitHub stats" />
+<img height="165" src="https://streak-stats.demolab.com?user=AminHasanloo&hide_border=true&background=070B16&ring=22D3EE&fire=A855F7&currStreakLabel=22D3EE&sideLabels=C7D2FE&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B" alt="GitHub contribution streak" />
+
+</div>
+
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AminHasanloo&bg_color=070B16&color=C7D2FE&line=22D3EE&point=A855F7&area=true&area_color=0E7490&hide_border=true&custom_title=CONTRIBUTION%20SIGNAL" alt="Contribution activity graph" />
+
+</div>
+
+## `ACTIVE BUILDS // SELECTED WORK`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🚗 [Unity AI Vehicle System](https://github.com/AminHasanloo/Unity-AI-Vehicle-System)
-AI-driven vehicle controller for Unity with intelligent navigation, obstacle avoidance, overtaking, reversing, stuck recovery, dynamic speed control and vehicle physics.
+
+An AI-driven vehicle controller with navigation, obstacle avoidance, overtaking, reversing, stuck recovery, speed control and vehicle physics.
 
 `Unity` `C#` `Vehicle AI` `Pathfinding` `Physics`
 
@@ -88,7 +104,8 @@ AI-driven vehicle controller for Unity with intelligent navigation, obstacle avo
 <td width="50%" valign="top">
 
 ### 💳 [Unity Monetization Framework](https://github.com/AminHasanloo/UnityMonetizationFramework)
-Unified Unity layer for **IAP + Ads** across Google Play, Café Bazaar, Myket, Zarinpal, AdMob, Tapsell and LevelPlay.
+
+A unified Unity layer for IAP and ads across Google Play, Café Bazaar, Myket, Zarinpal, AdMob, Tapsell and LevelPlay.
 
 `Unity` `C#` `IAP` `Ads` `Android`
 
@@ -98,7 +115,8 @@ Unified Unity layer for **IAP + Ads** across Google Play, Café Bazaar, Myket, Z
 <td width="50%" valign="top">
 
 ### 📊 [Unity Analytics Lite](https://github.com/AminHasanloo/Unity-Analytics-Lite)
-Lightweight Unity event analytics with batching, offline queueing, sessions, consent support and configurable backend collection.
+
+Lightweight event analytics with batching, an offline queue, sessions, consent support and configurable backend collection.
 
 `Unity` `Analytics` `C#` `Node.js` `Privacy`
 
@@ -106,7 +124,8 @@ Lightweight Unity event analytics with batching, offline queueing, sessions, con
 <td width="50%" valign="top">
 
 ### 🎭 [Spine Animation AI](https://github.com/AminHasanloo/spine-animation-ai)
-Experimental AI-assisted pipeline for Spine 2D character preparation, rigging, animation generation, positioning and interactive previews.
+
+An experimental AI-assisted pipeline for Spine 2D character preparation, rigging, animation and interactive previews.
 
 `AI` `Spine2D` `Python` `OpenCV`
 
@@ -114,80 +133,58 @@ Experimental AI-assisted pipeline for Spine 2D character preparation, rigging, a
 </tr>
 </table>
 
----
+## `BUILD LOOP // HOW I WORK`
 
-## 🧠 Engineering Focus
-
-```csharp
-public sealed class AminHasanloo
-{
-    public string Focus => "Unity + Gameplay Systems + AI";
-
-    public string[] Builds =>
-    {
-        "Games",
-        "Serious Games",
-        "Simulations",
-        "AI-powered Tools",
-        "Automation Pipelines"
-    };
-
-    public string Philosophy =>
-        "Build systems that are modular, measurable, playable and ready to evolve.";
-}
+```mermaid
+flowchart LR
+    A[Playable Goal] --> B[Small Clear System]
+    B --> C[Deterministic Tests]
+    C --> D[Unity Play Mode]
+    D --> E[Profile and Measure]
+    E --> F[Ship and Document]
+    F -. feedback .-> A
 ```
 
----
+I prefer explicit dependencies, small focused components and gameplay rules that can be tested without loading an entire scene. I use AI where it creates leverage, but keep runtime behavior deterministic and production-safe.
 
-## 🤖 AI × Game Development
+## `R&D QUESTS // CURRENT DIRECTION`
 
-I actively explore how modern AI can improve the **game-production pipeline without sacrificing deterministic game engineering**.
+- AI-assisted gameplay prototyping and agentic development workflows
+- AI-driven animation and content pipelines for game production
+- Data-driven simulation with JSON as an explicit contract
+- Automated QA, build evidence and repeatable delivery workflows
+- Serious games with measurable training and organizational value
 
-Current interests:
-
-- AI-assisted gameplay prototyping
-- Agentic development workflows
-- AI-driven content and asset pipelines
-- Spine2D / animation automation
-- LLM-powered internal production tools
-- JSON / data-driven simulation
-- Automated QA and production workflows
-- AI + gamification for business and organizational products
-
----
-
-## 🏗️ Beyond Games
-
-My background also spans:
+<details>
+<summary><b>Full-stack systems beyond the engine</b></summary>
+<br />
 
 `Next.js` · `React` · `Node.js` · `Express` · `MongoDB` · `PostgreSQL` · `Redis` · `PHP` · `WordPress` · `REST APIs` · `Socket.IO`
 
-That full-stack background lets me build not only the game client, but also the **dashboards, APIs, backends, automation layers and supporting products around it**.
+This background lets me build the dashboards, APIs, backends and automation layers around the game client as one connected product.
 
----
+</details>
 
-## 🏆 Highlights
+## `ACHIEVEMENTS // SELECTED HIGHLIGHTS`
 
-- 🥇 **1st National Place**, Resistance & Martyrs Defense Festival, Iran, 2024
-- 🎮 **Game Nominee**, National Investment Event in Resistance Games, Isfahan, 2024
-- 📱 **Selected Application**, Café Bazaar App Festival, 2016
-- 🥇 **1st Place**, Provincial Web Design Skills Competition, Zanjan, 2016
-- 🥈 **2nd Place**, Software Engineering Competition, Al-Ghadir University, 2014
+- 🥇 **1st National Place** — Resistance & Martyrs Defense Festival, Iran, 2024
+- 🎮 **Game Nominee** — National Investment Event in Resistance Games, Isfahan, 2024
+- 📱 **Selected Application** — Café Bazaar App Festival, 2016
+- 🥇 **1st Place** — Provincial Web Design Skills Competition, Zanjan, 2016
+- 🥈 **2nd Place** — Software Engineering Competition, Al-Ghadir University, 2014
 
----
-
-## 🌌 Current Direction
-
-> Building at the intersection of **games, simulation, artificial intelligence and automation**.
-
-My long-term focus is creating reusable technology for faster game production, smarter simulations, intelligent interactive systems and serious games with measurable real-world value.
-
----
+## `CONTRIBUTION MAP // KEEP MOVING`
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AminHasanloo/AminHasanloo/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AminHasanloo/AminHasanloo/output/github-contribution-grid-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/AminHasanloo/AminHasanloo/output/github-contribution-grid-snake.svg" alt="Animated contribution graph" />
+</picture>
+
 ### `PLAY • BUILD • SIMULATE • AUTOMATE`
 
-**Open to Unity engineering, game development, serious-game, simulation and AI-powered interactive projects.**
+Open to **Unity engineering, gameplay systems, serious games, simulation and AI-powered interactive projects**.
 
 </div>

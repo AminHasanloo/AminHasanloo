@@ -1,0 +1,35 @@
+name: Devlog and project progress
+description: Record a meaningful engineering update with evidence
+title: "[Devlog] "
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What changed
+      description: Describe the feature, fix, experiment or documentation improvement.
+      placeholder: Added stuck recovery to the vehicle AI and covered the reverse transition with a regression test.
+    validations:
+      required: true
+
+  - type: input
+    id: repository
+    attributes:
+      label: Repository or project
+      placeholder: Unity-AI-Vehicle-System
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Validation evidence
+      description: Include tests, Play Mode checks, screenshots, clips or measurements.
+      placeholder: EditMode 12/12 passed. Verified the demo scene in Unity Play Mode.
+    validations:
+      required: true
+
+  - type: textarea
+    id: next
+    attributes:
+      label: Next useful step
+      placeholder: Add an overtaking example to the demo scene and document tuning values.

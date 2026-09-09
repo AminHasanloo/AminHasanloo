@@ -1,0 +1,36 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask a focused technical question. Include enough context for a practical answer.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to understand or decide?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Include the project type, Unity version, target platform and relevant architecture.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried
+      description: Share the current approach, result and any exact error or limitation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal example or references
+      description: Add a small code sample, repository link, screenshot or profiler capture when useful.

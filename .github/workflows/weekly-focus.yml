@@ -1,0 +1,64 @@
+name: Refresh weekly portfolio focus
+
+on:
+  schedule:
+    - cron: "30 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  refresh-focus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Create or refresh one shipping queue
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        with:
+          script: |
+            const title = "[Portfolio Ops] Weekly Shipping Queue";
+            const today = new Date().toISOString().slice(0, 10);
+            const body = `## Focus for ${today}
+
+            This is one rolling queue for meaningful public work. The goal is evidence, not activity for its own sake.
+
+            ### Ship
+            - [ ] Improve one real feature, test, demo or document
+            - [ ] Add visual proof for one gameplay or tool change
+            - [ ] Review the public README and quick-start path
+            - [ ] Publish or improve one release when the project is ready
+
+            ### Community
+            - [ ] Answer one Unity, game AI or automation question where I can add real value
+            - [ ] Follow up on open issues and discussions in my repositories
+            - [ ] Ask for focused feedback on one concrete design decision
+
+            ### Priority repositories
+            - [Unity AI Vehicle System](https://github.com/AminHasanloo/Unity-AI-Vehicle-System)
+            - [Unity Monetization Framework](https://github.com/AminHasanloo/UnityMonetizationFramework)
+            - [Unity Analytics Lite](https://github.com/AminHasanloo/Unity-Analytics-Lite)
+            - [Spine Animation AI](https://github.com/AminHasanloo/spine-animation-ai)
+
+            ### Shipped this week
+            -
+
+            _Updated automatically. Complete the work manually and keep the notes factual._`;
+
+            const { owner, repo } = context.repo;
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: "open",
+              per_page: 100,
+            });
+            const existing = issues.find(issue => !issue.pull_request && issue.title === title);
+
+            if (existing) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, body });
+              core.notice(`Updated issue #${existing.number}`);
+            } else {
+              const created = await github.rest.issues.create({ owner, repo, title, body });
+              core.notice(`Created issue #${created.data.number}`);
+            }

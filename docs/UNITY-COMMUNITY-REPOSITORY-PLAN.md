@@ -1,8 +1,11 @@
 # Unity Community Repository Plan
 
-**Owner:** Amin Hasanloo  
-**Audience:** Game studios, Unity engineering teams, open-source contributors, and technical recruiters  
-**Snapshot date:** 2026-09-09  
+**Owner:** Amin Hasanloo
+
+**Audience:** Game studios, Unity engineering teams, open-source contributors, and technical recruiters
+
+**Snapshot date:** 2026-09-09
+
 **Primary direction:** Unity 2D/3D, mobile publishing and monetization, game AI, VR/AR, and production tooling
 
 ## 1. Objective

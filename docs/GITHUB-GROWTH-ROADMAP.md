@@ -52,3 +52,12 @@ The goal is a profile that proves useful engineering work. Achievements are a si
 ## What automation should and should not do
 
 Automation can refresh profile graphics, maintain one weekly shipping queue, check links and surface relevant discussions. It should not create fake PRs, self-answer questions from another account, manufacture co-authors or post generic replies. Those patterns reduce trust even if a badge appears.
+
+## GitHub-native automation now active
+
+- `profile-visuals.yml` refreshes the contribution snake and public telemetry every day.
+- `profile-health.yml` checks local assets and public profile links every week, maintains one health issue and closes it after recovery.
+- `weekly-focus.yml` maintains one rolling shipping queue instead of generating issue spam.
+- `dependabot.yml` asks GitHub to open focused update PRs for pinned GitHub Actions references.
+
+These jobs improve maintenance and visible project health. Their bot activity is intentionally not presented as personal engineering contribution.

@@ -1,0 +1,75 @@
+name: Profile link health
+
+on:
+  schedule:
+    - cron: "41 4 * * 3"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "README.md"
+      - "assets/**"
+      - ".github/scripts/check_profile_health.py"
+      - ".github/workflows/profile-health.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: profile-health
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout profile source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Check local assets and public URLs
+        id: health
+        continue-on-error: true
+        run: python .github/scripts/check_profile_health.py
+
+      - name: Open or update one health issue
+        if: steps.health.outcome == 'failure'
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        with:
+          script: |
+            const title = "[Profile Health] Broken public link or image";
+            const body = `The automated profile check found a missing asset or unavailable public URL.
+
+            Review the full report in this workflow run:
+            ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}
+
+            This issue is maintained automatically and will close when the profile is healthy again.`;
+            const { owner, repo } = context.repo;
+            const issues = await github.paginate(github.rest.issues.listForRepo, { owner, repo, state: "open", per_page: 100 });
+            const existing = issues.find(issue => !issue.pull_request && issue.title === title);
+            if (existing) {
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ owner, repo, title, body });
+            }
+
+      - name: Close recovered health issue
+        if: steps.health.outcome == 'success'
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        with:
+          script: |
+            const title = "[Profile Health] Broken public link or image";
+            const { owner, repo } = context.repo;
+            const issues = await github.paginate(github.rest.issues.listForRepo, { owner, repo, state: "open", per_page: 100 });
+            const existing = issues.find(issue => !issue.pull_request && issue.title === title);
+            if (existing) {
+              await github.rest.issues.createComment({ owner, repo, issue_number: existing.number, body: "Profile health recovered automatically. All current assets and public URLs passed." });
+              await github.rest.issues.update({ owner, repo, issue_number: existing.number, state: "closed", state_reason: "completed" });
+            }
+
+      - name: Fail when the profile is unhealthy
+        if: steps.health.outcome == 'failure'
+        run: exit 1

@@ -11,9 +11,15 @@
 <a href="https://github.com/AminHasanloo?tab=repositories"><img src="https://img.shields.io/badge/Projects-explore-111827?style=for-the-badge&logo=github&logoColor=white" alt="Public projects" /></a>
 <img src="https://komarev.com/ghpvc/?username=AminHasanloo&style=for-the-badge&color=0891B2&label=PROFILE+VIEWS" alt="Profile views" />
 
+<br /><br />
+
+<a href="https://github.com/AminHasanloo/AminHasanloo/actions/workflows/profile-visuals.yml"><img src="https://github.com/AminHasanloo/AminHasanloo/actions/workflows/profile-visuals.yml/badge.svg?branch=main" alt="Profile visuals workflow" /></a>
+<a href="https://github.com/AminHasanloo/AminHasanloo/actions/workflows/profile-health.yml"><img src="https://github.com/AminHasanloo/AminHasanloo/actions/workflows/profile-health.yml/badge.svg?branch=main" alt="Profile health workflow" /></a>
+<a href="https://github.com/AminHasanloo/AminHasanloo/actions/workflows/weekly-focus.yml"><img src="https://github.com/AminHasanloo/AminHasanloo/actions/workflows/weekly-focus.yml/badge.svg" alt="Weekly portfolio focus workflow" /></a>
+
 </div>
 
-## `PLAYER_01 // AMIN HASANLOO`
+## `PLAYER SELECT // AMIN HASANLOO`
 
 I am a senior software and game developer focused on the systems behind playable products: **gameplay architecture, game AI, simulation, performance and production tooling**.
 
@@ -50,7 +56,7 @@ OUTPUT    Playable systems that are easier to test, extend and ship
 </tr>
 </table>
 
-## `LOADOUT // CORE STACK`
+## `INVENTORY // CORE STACK`
 
 <div align="center">
 
@@ -88,7 +94,7 @@ OUTPUT    Playable systems that are easier to test, extend and ship
 
 </div>
 
-## `ACTIVE BUILDS // SELECTED WORK`
+## `LEVEL SELECT // ACTIVE BUILDS`
 
 <table>
 <tr>
@@ -133,17 +139,13 @@ An experimental AI-assisted pipeline for Spine 2D character preparation, rigging
 </tr>
 </table>
 
-## `BUILD LOOP // HOW I WORK`
+## `WORLD MAP // HOW I SHIP`
 
-```mermaid
-flowchart LR
-    A[Playable Goal] --> B[Small Clear System]
-    B --> C[Deterministic Tests]
-    C --> D[Unity Play Mode]
-    D --> E[Profile and Measure]
-    E --> F[Ship and Document]
-    F -. feedback .-> A
-```
+<div align="center">
+
+<img width="100%" src="assets/pixel-quest-map.svg" alt="Animated pixel development quest from architecture to shipping" />
+
+</div>
 
 I prefer explicit dependencies, small focused components and gameplay rules that can be tested without loading an entire scene. I use AI where it creates leverage, but keep runtime behavior deterministic and production-safe.
 
@@ -173,7 +175,13 @@ This background lets me build the dashboards, APIs, backends and automation laye
 - 🥇 **1st Place** — Provincial Web Design Skills Competition, Zanjan, 2016
 - 🥈 **2nd Place** — Software Engineering Competition, Al-Ghadir University, 2014
 
-## `CONTRIBUTION MAP // KEEP MOVING`
+<div align="center">
+
+<img width="100%" src="assets/achievement-quest.svg" alt="Pixel achievement quest showing verified GitHub achievements and authentic next goals" />
+
+</div>
+
+## `SNAKE LEVEL // KEEP MOVING`
 
 <div align="center">
 

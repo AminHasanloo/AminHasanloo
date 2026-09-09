@@ -19,9 +19,9 @@ I build the systems behind playable products: **gameplay architecture, game AI, 
 My main stack is **Unity + C#**. I work across 2D and 3D games, Android publishing, VR/AR experiences and serious-game systems. Around the engine, I build automation and AI-assisted tools while keeping runtime behavior deterministic, testable and production-safe.
 
 ```text
-MISSION   Turn game ideas into maintainable playable systems
-METHOD    Modular architecture + measurable behavior + focused iteration
-OUTPUT    Unity systems that teams can understand, test, extend and ship
+MISSION   Maintainable playable systems
+METHOD    Modular design + measured behavior
+OUTPUT    Clear, testable Unity code
 ```
 
 Open to **remote Unity engineering, gameplay systems, game AI, simulation and XR opportunities**.

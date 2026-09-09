@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Mohammad Amin Hasanloo - Unity, Game Systems and AI</title>
+  <desc id="desc">Futuristic dark profile banner for a senior Unity game developer and AI engineer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset="0.46" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#160b2f"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#a855f7" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <ellipse cx="190" cy="96" rx="270" ry="210" fill="url(#glowA)"/>
+  <ellipse cx="1050" cy="252" rx="330" ry="230" fill="url(#glowB)"/>
+
+  <g opacity=".75" fill="none" stroke="url(#neon)">
+    <path d="M64 238H210l34-34h108l34 34h170" stroke-width="2"/>
+    <path d="M835 82h113l26 26h162" stroke-width="2"/>
+    <circle cx="64" cy="238" r="4" fill="#22d3ee" stroke="none"/>
+    <circle cx="556" cy="238" r="4" fill="#38bdf8" stroke="none"/>
+    <circle cx="835" cy="82" r="4" fill="#38bdf8" stroke="none"/>
+    <circle cx="1136" cy="108" r="4" fill="#a855f7" stroke="none"/>
+  </g>
+
+  <g transform="translate(72 58)">
+    <rect width="116" height="116" rx="28" fill="#07111f" stroke="url(#neon)" stroke-width="2"/>
+    <path d="M28 83V34h13l17 23 17-23h13v49H74V55L58 76 42 55v28Z" fill="url(#neon)" filter="url(#softGlow)"/>
+    <circle cx="91" cy="27" r="5" fill="#22d3ee"/>
+  </g>
+
+  <text x="220" y="95" fill="#e6f7ff" font-family="Arial,Segoe UI,sans-serif" font-size="18" font-weight="700" letter-spacing="4">UNITY • GAME SYSTEMS • AI</text>
+  <text x="220" y="154" fill="#ffffff" font-family="Arial,Segoe UI,sans-serif" font-size="43" font-weight="800">Mohammad Amin Hasanloo</text>
+  <rect x="220" y="174" width="620" height="4" rx="2" fill="url(#neon)"/>
+  <text x="220" y="213" fill="#b9d9ea" font-family="Arial,Segoe UI,sans-serif" font-size="22" font-weight="500">Senior Unity Game Developer • Gameplay &amp; Systems Engineer • Technical Lead</text>
+  <text x="220" y="250" fill="#8ab4c8" font-family="Arial,Segoe UI,sans-serif" font-size="17">Serious Games • Simulation • XR • AI Agents • Automation</text>
+
+  <g transform="translate(947 180)" opacity=".9">
+    <circle cx="74" cy="44" r="62" fill="none" stroke="#38bdf8" stroke-opacity=".24"/>
+    <circle cx="74" cy="44" r="43" fill="none" stroke="#a855f7" stroke-opacity=".34"/>
+    <circle cx="74" cy="44" r="7" fill="#22d3ee" filter="url(#softGlow)"/>
+    <path d="M74-18V4M74 84v22M12 44h22M114 44h22M30 0l17 17M101 71l17 17M30 88l17-17M101 17l17-17" stroke="url(#neon)" stroke-width="2"/>
+  </g>
+
+  <text x="72" y="292" fill="#5f8297" font-family="monospace" font-size="13" letter-spacing="2">BUILDING PLAYABLE TECHNOLOGY FOR THE FUTURE</text>
+</svg>

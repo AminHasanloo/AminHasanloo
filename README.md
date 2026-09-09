@@ -1,17 +1,16 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:0ea5e9,100:7c3aed&text=Mohammad%20Amin%20Hasanloo&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Senior%20Unity%20Game%20Developer%20%7C%20Gameplay%20Systems%20%7C%20AI&descAlignY=58&animation=fadeIn"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Senior+Unity+Game+Developer;Gameplay+%26+Systems+Engineer;Serious+Games+%7C+Simulation+%7C+XR;AI+Agents+%7C+n8n+%7C+Automation;Building+playable+systems+for+the+future" alt="Typing SVG" />
+<img width="100%" src="assets/profile-banner.svg" alt="Mohammad Amin Hasanloo - Senior Unity Game Developer, Gameplay Systems Engineer and AI Engineer"/>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/aminhasanloo/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:hsoamin76@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&lines=Senior+Unity+Game+Developer;Gameplay+%26+Systems+Engineer;Serious+Games+%7C+Simulation+%7C+XR;AI+Agents+%7C+n8n+%7C+Automation;Building+playable+technology+for+the+future" alt="Typing intro" />
+
+<br/>
+
+<a href="https://www.linkedin.com/in/aminhasanloo/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:hsoamin76@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=AminHasanloo&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" />
 
 </div>
 
@@ -19,16 +18,16 @@
 
 ## 👾 About Me
 
-I'm **Mohammad Amin Hasanloo**, a software and game developer with **15+ years of programming experience**, focused on building games, simulations, intelligent systems, and interactive products.
+I'm **Mohammad Amin Hasanloo**, a software and game developer with **15+ years of programming experience**, focused on building games, simulations, intelligent systems and interactive products.
 
-My core world is **Unity + C#**: gameplay architecture, game systems, AI-driven behavior, mobile optimization, serious games, simulation, XR, and production tooling.
+My core world is **Unity + C#**: gameplay architecture, game systems, AI-driven behavior, mobile optimization, serious games, simulation, XR and production tooling.
 
-Beyond the engine, I build **AI agents, n8n automations, generative-AI pipelines, and full-stack systems** that connect game production with the rapidly evolving AI ecosystem.
+Beyond the engine, I build **AI agents, n8n automations, generative-AI pipelines and full-stack systems** that connect game production with the rapidly evolving AI ecosystem.
 
 ```text
 GAMEPLAY  +  SYSTEMS  +  AI  +  AUTOMATION
-            ↓
-     PLAYABLE TECHNOLOGY
+                    ↓
+            PLAYABLE TECHNOLOGY
 ```
 
 - 🎮 **Unity / C#** for 2D, 3D, mobile, PC, WebGL, VR & AR
@@ -36,7 +35,7 @@ GAMEPLAY  +  SYSTEMS  +  AI  +  AUTOMATION
 - ⚙️ **Architecture & Optimization** for scalable and production-ready Unity projects
 - 🛰️ **Serious Games & Simulation** for training, education, organizations and interactive experiences
 - 🤖 **AI Agents & Automation** with LLMs, n8n, Python, Node.js and APIs
-- 🧪 **R&D mindset** around AI-assisted game production, animation and interactive systems
+- 🧪 **R&D** around AI-assisted game production, animation and interactive systems
 
 ---
 
@@ -59,16 +58,16 @@ GAMEPLAY  +  SYSTEMS  +  AI  +  AUTOMATION
 
 ---
 
-## 🎮 What I Build
+## 🎮 Engineering Profile
 
-| Area | Focus |
+| Area | What I Work On |
 |---|---|
-| **Gameplay Engineering** | Controllers, combat, weapons, vehicles, missions, progression, save/load, game economy |
-| **Game AI** | FSM, Utility AI, navigation, pathfinding, target selection, vehicle AI, simulation logic |
-| **Unity Architecture** | SOLID, modular systems, ScriptableObjects, reusable frameworks, custom editor tooling |
-| **Performance** | Profiler, memory & GC reduction, pooling, batching, UI optimization, LOD, Addressables |
+| **Gameplay Engineering** | Controllers, combat, weapons, vehicles, missions, progression, save/load, economy |
+| **Game AI** | FSM, Utility AI, navigation, pathfinding, targeting, vehicle AI, simulation logic |
+| **Unity Architecture** | SOLID, modular systems, ScriptableObjects, reusable frameworks, editor tooling |
+| **Performance** | Profiler, GC & memory reduction, pooling, batching, UI optimization, LOD, Addressables |
 | **Mobile Games** | Android, Google Play, Café Bazaar, Myket, IAP, ads, analytics, build optimization |
-| **Serious Games** | Training, education, industrial simulation, museum experiences, gamification |
+| **Serious Games** | Training, education, industrial simulation, museums, gamification |
 | **XR** | VR training, AR experiences, interactive navigation and spatial applications |
 | **AI & Automation** | AI agents, n8n, LLM APIs, media pipelines, content and production automation |
 
@@ -76,25 +75,44 @@ GAMEPLAY  +  SYSTEMS  +  AI  +  AUTOMATION
 
 ## 🚀 Selected Public Work
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### 🚗 [Unity AI Vehicle System](https://github.com/AminHasanloo/Unity-AI-Vehicle-System)
-AI-driven vehicle controller for Unity with intelligent navigation, obstacle avoidance, overtaking, reversing, stuck recovery, speed control and vehicle physics.
+AI-driven vehicle controller for Unity with intelligent navigation, obstacle avoidance, overtaking, reversing, stuck recovery, dynamic speed control and vehicle physics.
 
 `Unity` `C#` `Vehicle AI` `Pathfinding` `Physics`
 
-### 💳 [Unity Monetization Framework](https://github.com/AminHasanloo/UnityMonetizationFramework)
-A unified Unity layer for **IAP + Ads**, covering Google Play, Café Bazaar, Myket, Zarinpal, AdMob, Tapsell and LevelPlay with configurable provider-based architecture.
+</td>
+<td width="50%" valign="top">
 
-`Unity` `C#` `IAP` `Ads` `Android` `SDK Integration`
+### 💳 [Unity Monetization Framework](https://github.com/AminHasanloo/UnityMonetizationFramework)
+Unified Unity layer for **IAP + Ads** across Google Play, Café Bazaar, Myket, Zarinpal, AdMob, Tapsell and LevelPlay.
+
+`Unity` `C#` `IAP` `Ads` `Android`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 📊 [Unity Analytics Lite](https://github.com/AminHasanloo/Unity-Analytics-Lite)
-Lightweight Unity event analytics with batching, offline JSONL queueing, sessions, consent support, configurable collection and a simple backend collector workflow.
+Lightweight Unity event analytics with batching, offline queueing, sessions, consent support and configurable backend collection.
 
 `Unity` `Analytics` `C#` `Node.js` `Privacy`
 
-### 🎭 [Spine Animation AI](https://github.com/AminHasanloo/spine-animation-ai)
-Experimental AI-assisted pipeline for Spine 2D character preparation, rigging, animation generation, positioning and interactive preview workflows.
+</td>
+<td width="50%" valign="top">
 
-`AI` `Spine2D` `Python` `OpenCV` `Game Asset Pipeline`
+### 🎭 [Spine Animation AI](https://github.com/AminHasanloo/spine-animation-ai)
+Experimental AI-assisted pipeline for Spine 2D character preparation, rigging, animation generation, positioning and interactive previews.
+
+`AI` `Spine2D` `Python` `OpenCV`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -104,7 +122,8 @@ Experimental AI-assisted pipeline for Spine 2D character preparation, rigging, a
 public sealed class AminHasanloo
 {
     public string Focus => "Unity + Gameplay Systems + AI";
-    public string[] Builds => 
+
+    public string[] Builds =>
     {
         "Games",
         "Serious Games",
@@ -124,14 +143,14 @@ public sealed class AminHasanloo
 
 I actively explore how modern AI can improve the **game-production pipeline without sacrificing deterministic game engineering**.
 
-Current interests include:
+Current interests:
 
 - AI-assisted gameplay prototyping
 - Agentic development workflows
 - AI-driven content and asset pipelines
 - Spine2D / animation automation
 - LLM-powered internal production tools
-- JSON/data-driven simulation
+- JSON / data-driven simulation
 - Automated QA and production workflows
 - AI + gamification for business and organizational products
 
@@ -143,7 +162,7 @@ My background also spans:
 
 `Next.js` · `React` · `Node.js` · `Express` · `MongoDB` · `PostgreSQL` · `Redis` · `PHP` · `WordPress` · `REST APIs` · `Socket.IO`
 
-That full-stack experience lets me build not only the game client, but also the **dashboards, APIs, backends, automation layers and supporting products around it**.
+That full-stack background lets me build not only the game client, but also the **dashboards, APIs, backends, automation layers and supporting products around it**.
 
 ---
 
@@ -169,16 +188,6 @@ My long-term focus is creating reusable technology for faster game production, s
 
 ### `PLAY • BUILD • SIMULATE • AUTOMATE`
 
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=AminHasanloo&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS" />
-
-<br/><br/>
-
-**Open to game development, Unity engineering, serious-game, simulation and AI-powered interactive projects.**
-
-<br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0f172a,45:0ea5e9,100:7c3aed&section=footer"/>
+**Open to Unity engineering, game development, serious-game, simulation and AI-powered interactive projects.**
 
 </div>
